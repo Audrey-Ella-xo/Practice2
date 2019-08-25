@@ -43,3 +43,38 @@ main {
       margin: 20px;
       background-color: aqua;
   }
+  #features {
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+  }
+  #how-it-works {
+    margin-top: 50px;
+  }
+   
+  #pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  @media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+    }
+    .product {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
